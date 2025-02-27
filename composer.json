@@ -12,11 +12,6 @@
         "module-dir": "Modules",
         "laravel": {
             "dont-discover": []
-        },
-        "merge-plugin": {
-            "include": [
-                "Modules/*/composer.json"
-            ]
         }
     },
     "autoload": {
