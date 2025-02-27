@@ -9,7 +9,7 @@
         }
     ],
     "extra": {
-        "module-dir": "Modules",
+        "module-dir": "Custom",
         "laravel": {
             "dont-discover": []
         },
