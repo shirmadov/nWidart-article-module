@@ -20,3 +20,4 @@ Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
 });
 
 Route::post('article',[TgsArticleController::class,'store']);
+Route::post('test',[TgsArticleController::class,'index']);

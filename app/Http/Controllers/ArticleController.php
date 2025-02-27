@@ -18,6 +18,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
+        dd('so');
         $articles = TextServiceArticle::all();
         return view('article::tgs.index', compact('articles'));
     }
