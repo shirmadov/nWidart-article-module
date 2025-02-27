@@ -4,13 +4,15 @@
     "type": "laravel-module",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Shirmadov S",
+            "email": "sapashirmadov2501@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
-            "providers": [],
+            "providers": [
+                "Modules\\Article\\Providers\\ArticleServiceProvider"
+            ],
             "aliases": {
 
             }
