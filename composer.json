@@ -2,9 +2,6 @@
     "name": "shirmadov/article-module",
     "description": "Test",
     "type": "laravel-module",
-    "require": {
-        "nwidart/laravel-modules": "^12.0"
-    },
     "authors": [
         {
             "name": "Shirmadov S",
